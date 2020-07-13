@@ -3,13 +3,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HangMan</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link href="images/favicon.png" rel="icon" />
   </head>
   <body>
-    <p id="puzzle">*** *****</p>
-    <p id="guesses">Guesses left:2</p>
-    <button id="reset">Reset</button>
-    <script src="requests.js"></script>
-    <script src="hangman.js"></script>
-    <script src="app.js"></script>
+    <div>
+      <div id="puzzle" class="puzzle">*** *****</div>
+      <p id="guesses">Guesses left:2</p>
+      <button class="button" id="reset">Reset</button>
+    </div>
+    <script src="scripts/requests.js"></script>
+    <script src="scripts/hangman.js"></script>
+    <script src="scripts/app.js"></script>
   </body>
 </html>
