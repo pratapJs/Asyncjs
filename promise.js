@@ -8,7 +8,7 @@ const getDataPromise = (num) =>
         : reject("please provide a number");
     }, 500);
   });
-getDataPromise(5)
+getDataPromise(10)
   .then((data) => {
     console.log(data);
     return getDataPromise(data);
